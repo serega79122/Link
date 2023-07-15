@@ -1,0 +1,6 @@
+import pyshorteners
+
+s=pyshorteners.Shortener()
+url = "type your hentai videos here"
+
+print(s.tinyurl.short(url))
